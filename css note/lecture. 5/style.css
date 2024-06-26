@@ -1,0 +1,16 @@
+.nav{
+    height: 70px;
+    background-color: rgb(1, 1, 12);
+    display: flex;
+    color: cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#child{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    flex-wrap: wrap;
+}
+

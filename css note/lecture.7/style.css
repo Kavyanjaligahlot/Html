@@ -1,0 +1,41 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-duration: 4000ms;
+    transition-property: border-radius;
+}
+div:hover{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+} */
+.parent{
+    border: 2px solid green;
+      height: 400px;
+  }
+  .child{
+      height: 100px;
+      width: 100px;
+      transition: 2s;
+  }
+  #one{
+      background-color: brown;
+      transition-timing-function: linear;
+  }
+  #two{
+      background-color: aquamarine;
+      transition-timing-function: ease-in;
+  }
+  #three{
+      background-color: blue;
+      transition-timing-function: ease-out;
+  }
+  #four{
+      background-color: greenyellow;
+      transition-timing-function: ease-in-out;
+  }
+  .parent:hover .child{
+      margin-left: 1200px;
+  }

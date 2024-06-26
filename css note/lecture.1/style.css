@@ -1,0 +1,38 @@
+ #parent{
+    background-color: aqua;
+    height: 80vh;
+    width: 100vh;
+} 
+
+ #child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+} 
+
+li {
+    font-size: 2em;
+}
+li {
+    font-size: 2rem;
+}
+div{
+    border: 10px solid rgb(165, 18, 18);
+    margin: 40px;
+    padding: 40px;
+} 
+
+ div{
+    background-color: chocolate;
+    height: 80px;
+     display: inline; 
+ }
+
+ span{
+    background-color: cadetblue;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    display: none;
+    visibility:hidden;
+} 
