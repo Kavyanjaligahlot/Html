@@ -1,0 +1,23 @@
+div{
+    height: 150px;
+    width: 150px;
+}
+.parent{
+    background:linear-gradient(blue,red,yellow);
+    margin: auto;
+    border-radius:50%;
+    border: 2px solid blue;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in ;
+    animation-direction: alternate;
+}
+@keyframes bounce{
+    0%{
+        transform:translateX(0px);
+    }
+    100%{
+        transform:translateY(75vh) rotate(90deg) ;
+    }
+}

@@ -1,0 +1,33 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: darkgreen;
+    animation-name: new;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+div:hover{
+    animation-name: new;
+    animation-duration: 2s;
+}
+@keyframes new{
+    0%{
+        border-radius: 50%;
+        background-color: brown;
+    }
+    to{
+        background-color: cornflowerblue;
+    }
+    50%{
+        height: 400px;
+        width: 400px;
+        background-color: darkslateblue;
+    }
+    100%{
+        height: 400px;
+        width: 400px;
+        background-color: darkviolet;
+    }
+}
