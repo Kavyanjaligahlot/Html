@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+ header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
+ .child{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    
+ }
+aside{
+   background-color: beige;
+   margin-right: 20px;
+}
+#kuhu{
+   display: flex;
+   justify-content: space-around;
+}
